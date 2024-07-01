@@ -1,0 +1,46 @@
+.container {
+	width: 300px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ddd;
+	box-shadow: 2px 2px 5px #ccc;
+    background-color: #ffffff;
+}
+body{
+    background-color: #0084a8;
+    margin-top: 65px;
+    
+}
+label {
+	display: block;
+	margin-top: 20px;
+}
+
+input[type="email"], input[type="password"] {
+	width: 89%;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+input[type="submit"] {
+    margin-top: 4px;
+    padding: 8px 25px;
+    background-color: #007498;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #047da1;
+}
+
+a {
+	color: #007498;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
